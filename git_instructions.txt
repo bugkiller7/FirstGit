@@ -1,0 +1,32 @@
+1. Set username and useremail
+git config --global user.name XXX
+git config --global user.email XXX
+2. Initialize the workspace
+git init
+3. Create codes
+4. Add the files to the temp
+git add <filename>
+5. Commit
+git commit -m "<version information>" <filename>
+6. Show workspace status
+git status
+7. Show history versions and show version numbers
+git reflog
+git log
+8. Change to older versions(change the pointer HEAD to the version you want)
+git reset --hard <version number>
+9. Create a new branch
+git branch <branchname>
+10. Show branch list
+git branch -v
+11. Change branch
+git checkout <branchname>
+12. Merge several branches(This operation will check the differences between current branch and the selected branch and replace the current branch with the selected branch)
+git merge <branchname>
+13. Show remote library
+git remote -v
+14. Create a remote library
+git remote add <reponame> <URL>
+15. Push
+git push <reponame> <branchname>
+
