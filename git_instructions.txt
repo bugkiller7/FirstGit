@@ -1,3 +1,5 @@
+This is a file recording some common used instructions of git.
+
 1. Set username and useremail
 git config --global user.name XXX
 git config --global user.email XXX
