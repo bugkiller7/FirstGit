@@ -28,7 +28,7 @@ git merge <branchname>
 13. Show remote library
 git remote -v
 14. Create a remote library
-git remote add <reponame> <URL>
+git remote add <repolibname> <URL>
 15. Push
-git push <reponame> <branchname>
+git push <repolibname> <branchname>
 
