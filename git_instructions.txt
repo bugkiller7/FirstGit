@@ -1,4 +1,5 @@
 This is a file recording some common used instructions of git.
+Tset for SSH push.
 
 1. Set username and useremail
 git config --global user.name XXX
